@@ -1,0 +1,70 @@
+* {
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(220, 228, 245);
+}
+
+.banner {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/598/262/original/abstract-colorful-low-poly-vector-background-with-cool-gradient-futuristic-pattern.jpg);
+    color: white;
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+#icy {
+    height: 150px;
+    filter: drop-shadow(1px 1px 1px black)
+}
+
+.sticky-banner {
+    padding: 25px;
+    padding-left: 50px;
+    position: sticky;
+    margin: 30px;
+    top: 30px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+.card {
+    padding: 25px;
+    padding-left: 50px;
+    position: sticky;
+    margin: 30px;
+    top: 220px;
+    background-color: rgb(123, 163, 233);
+    color: white;
+    border: 4px rgb(92, 122, 176) solid;
+    width: 35%;
+    display: inline-block;
+}
+
+.card-image {
+    position: sticky;
+    margin: 30px;
+    top: 220px;
+    border: 4px rgb(92, 122, 176) solid;
+    display: inline-block;
+    width: 30%;
+    filter: hue-rotate(25deg);
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+a {
+    color: white;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
